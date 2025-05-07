@@ -1,0 +1,24 @@
+﻿# Ignore build outputs
+bin/
+obj/
+TestResults/
+
+# User-specific files
+.vs/
+*.user
+*.suo
+
+# VS Code / JetBrains
+.vscode/
+.idea/
+
+# Logs and screenshots
+*.log
+*.png
+*.jpg
+screenshots/
+*.trace
+
+# OS files
+.DS_Store
+Thumbs.db
