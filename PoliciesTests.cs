@@ -118,8 +118,6 @@ namespace TokeroPlaywrightTests
                 await Expect(Page.GetByRole(AriaRole.Heading, new() { Name = expectedHeading, Exact = true })).ToBeVisibleAsync();
 
                 await GoToPage(Page);
-
-                //to add to documentation that the html is not friendly for UI testing
             }
         }
     }
